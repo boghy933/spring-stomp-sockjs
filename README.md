@@ -10,7 +10,7 @@
 7. For London do the same thing in a new tab
 
 Script
-``
+```javascript
 function connectRome() {
     var socket = new SockJS('http://localhost:8080/websocket');
     stompClient = Stomp.over(socket);
@@ -30,4 +30,4 @@ function connectLondon() {
         });
     });
 }
-``
+```
